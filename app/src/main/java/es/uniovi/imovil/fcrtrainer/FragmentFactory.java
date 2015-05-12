@@ -24,6 +24,7 @@ import es.uniovi.imovil.fcrtrainer.digitalinformation.FloatingPointExerciseFragm
 import es.uniovi.imovil.fcrtrainer.digitalinformation.HexadecimalExerciseFragment;
 import es.uniovi.imovil.fcrtrainer.digitalinformation.SignedMagnitudeExerciseFragment;
 import es.uniovi.imovil.fcrtrainer.digitalinformation.TwosComplementExerciseFragment;
+import es.uniovi.imovil.fcrtrainer.digitalsystems.DigitalCircuitExerciseFragment;
 import es.uniovi.imovil.fcrtrainer.digitalsystems.LogicGateExerciseFragment;
 import es.uniovi.imovil.fcrtrainer.digitalsystems.LogicOperationExerciseFragment;
 import es.uniovi.imovil.fcrtrainer.highscores.HighscoresFragment;
@@ -57,6 +58,8 @@ final public class FragmentFactory {
 			return HighscoresFragment.newInstance();
 		case R.string.logic_gate:
 			return LogicGateExerciseFragment.newInstance();
+		case R.string.digital_circuit:
+				return DigitalCircuitExerciseFragment.newInstance();
 		case R.string.logic_operation:
 			return LogicOperationExerciseFragment.newInstance();
 		case R.string.hexadecimal:

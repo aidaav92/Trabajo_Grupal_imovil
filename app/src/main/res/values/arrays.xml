@@ -21,13 +21,14 @@ limitations under the License.
         <item>@string/binary</item>
         <item>@string/hexadecimal</item>
         <item>@string/sign_and_magnitude</item>
-     <!--    <item>@string/interpretation</item> -->
-     <!--    <item>@string/offset_binary</item>  -->
-		<item>@string/twoscomplement</item>
+        <!--    <item>@string/interpretation</item> -->
+        <!--    <item>@string/offset_binary</item>  -->
+        <item>@string/twoscomplement</item>
         <item>@string/floating_point</item>
     </array>
     <array name="digital_systems">
         <item>@string/logic_gate</item>
+        <item>@string/digital_circuit</item>
         <item>@string/logic_operation</item>
     </array>
     <array name="networks">
@@ -36,9 +37,9 @@ limitations under the License.
         <item>@string/host_count</item>
         <item>@string/network_mask</item>
         <item>@string/network_layer</item>
-      <!--    <item>@string/protocol</item>  -->
+        <!--    <item>@string/protocol</item>  -->
     </array>
-     
+
     <array name="highscores">
         <item>@string/highscores</item>
     </array>
@@ -61,7 +62,7 @@ limitations under the License.
         <item>Walter</item>
     </string-array>
 
-    <!-- Arrays layer exercise -->  
+    <!-- Arrays layer exercise -->
     <string-array name="layer_exercise_questions">
         <item>IP</item>
         <item>UDP</item>
@@ -100,8 +101,8 @@ limitations under the License.
         <item>NOR</item>
         <item>@string/tri_state_buffer</item>
     </string-array>
-    
-	<array name="logic_gates_images">
+
+    <array name="logic_gates_images">
         <item>@drawable/logic_gate_and</item>
         <item>@drawable/logic_gate_or</item>
         <item>@drawable/logic_gate_not</item>
@@ -110,19 +111,37 @@ limitations under the License.
         <item>@drawable/logic_gate_nor</item>
         <item>@drawable/logic_gate_buffer</item>
     </array>
-    
-	<!-- Fin Arrays logic gate -->
 
-     <string-array name="pref_level_entries">
-         <item>@string/pref_level1_name</item>
-         <item>@string/pref_level2_name</item>
-         <item>@string/pref_level3_name</item>
-     </string-array>
-     
-     <string-array name="pref_level_values">
-         <item>@string/pref_level1_name</item>
-         <item>@string/pref_level2_name</item>
-         <item>@string/pref_level3_name</item>
-     </string-array>
-     
+    <!-- Fin Arrays logic gate -->
+
+    <!-- Arrays digital circuit -->
+    <string-array name="digital_circuits">
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <array name="digital_circuits_images">
+        <item>@drawable/circuito1_1</item>
+        <item>@drawable/circuito2_0</item>
+        <item>@drawable/circuito3_1</item>
+        <item>@drawable/circuito4_0</item>
+        <item>@drawable/circuito5_1</item>
+    </array>
+
+    <!-- Fin Arrays digital circuit -->
+    <string-array name="pref_level_entries">
+        <item>@string/pref_level1_name</item>
+        <item>@string/pref_level2_name</item>
+        <item>@string/pref_level3_name</item>
+    </string-array>
+
+    <string-array name="pref_level_values">
+        <item>@string/pref_level1_name</item>
+        <item>@string/pref_level2_name</item>
+        <item>@string/pref_level3_name</item>
+    </string-array>
+
 </resources>

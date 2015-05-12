@@ -117,5 +117,7 @@
     <string name="pref_level1_name">Beginner</string>
     <string name="pref_level2_name">Advanced</string>
     <string name="pref_level3_name">Master</string>
-    
+    <string name="digital_circuit">Digital circuits</string>
+    <string name="digital_circuit_title">What value results in the output of the circuit ?</string>
+
 </resources>

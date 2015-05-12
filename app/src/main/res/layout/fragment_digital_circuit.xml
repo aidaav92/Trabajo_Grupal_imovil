@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+        style="@style/game_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <include
+            android:id="@+id/game_info_panel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/game_info_panel" />
+
+        <TextView
+            android:id="@+id/exercisetitle"
+            style="@style/Title2DarkLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/game_info_panel"
+            android:layout_marginTop="20dp"
+            android:text="@string/digital_circuit_title" />
+
+       <RelativeLayout
+           android:id="@+id/LSolution"
+           android:layout_marginTop="15dp"
+           android:layout_marginBottom="15dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/exercisetitle">
+
+        <ImageView
+            android:id="@+id/imagedigitalcircuit"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/cards" />
+
+        <RadioGroup
+            android:id="@+id/dcircuit_group"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imagedigitalcircuit"
+            android:gravity="center"
+            android:padding="10dp" >
+
+            <RadioButton
+                android:id="@+id/rb_0"
+                style="@style/Title2DarkLight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="40dp"
+                android:text="@string/digital_circuit_0"
+                android:textSize="@dimen/normal_font" />
+
+            <RadioButton
+                android:id="@+id/rb_1"
+                style="@style/Title2DarkLight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/digital_circuit_1"
+                android:textSize="@dimen/normal_font" />
+
+        </RadioGroup>
+    </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LSolution"
+
+            >
+
+            <Button
+                android:id="@+id/cButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/check" />
+
+            <Button
+                android:id="@+id/sButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/solution" />
+        </LinearLayout>
+
+        <include layout="@layout/overlapped_info_window" />
+    </RelativeLayout>
+    </ScrollView>
