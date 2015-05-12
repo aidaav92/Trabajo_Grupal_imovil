@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="256"
+   height="256"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="game_start.svg"
+   inkscape:export-filename="C:\Users\UsuarioA\git\imovil2014\artwork\game_start.png"
+   inkscape:export-xdpi="135"
+   inkscape:export-ydpi="135">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="62.561934"
+     inkscape:cy="146.03778"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     inkscape:window-width="1680"
+     inkscape:window-height="988"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Capa"
+     style="display:inline">
+    <path
+       sodipodi:type="arc"
+       style="fill:#172457;fill-opacity:1;fill-rule:evenodd;stroke:#131d46;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path2996"
+       sodipodi:cx="138.21428"
+       sodipodi:cy="139.92857"
+       sodipodi:rx="104.64286"
+       sodipodi:ry="104.64286"
+       d="m 242.85714,139.92857 a 104.64286,104.64286 0 1 1 -209.285721,0 104.64286,104.64286 0 1 1 209.285721,0 z"
+       transform="matrix(1.142663,0,0,1.142663,-29.932343,-31.891204)"
+       inkscape:export-filename="C:\Users\UsuarioA\git\imovil2014\artwork\incorrect.png"
+       inkscape:export-xdpi="191.78"
+       inkscape:export-ydpi="191.78" />
+    <path
+       sodipodi:type="star"
+       style="fill:#ffffff;fill-opacity:1;stroke:#131d46;stroke-opacity:1"
+       id="path3754"
+       sodipodi:sides="3"
+       sodipodi:cx="101.42857"
+       sodipodi:cy="129.57143"
+       sodipodi:r1="85.164909"
+       sodipodi:r2="42.582455"
+       sodipodi:arg1="2.0943951"
+       sodipodi:arg2="3.1415927"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 58.846119,203.3264 0,-73.75498 0,-73.754969 63.873681,36.877489 63.87368,36.87749 -63.87368,36.87748 z"
+       inkscape:transform-center-x="-21.291227"
+       transform="translate(15.280199,-1.5714265)" />
+  </g>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-796.36218)" />
+</svg>

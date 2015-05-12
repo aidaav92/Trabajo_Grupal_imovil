@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright 2014 Profesores y alumnos de la asignatura Informática Móvil de la EPI de Gijón
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<resources>
+
+    <string name="app_name">Master Hacker</string>
+    <string name="action_settings">Configuración</string>
+    <string name="action_help">Ayuda</string>
+    <string name="action_game_control">Jugar</string>
+    <string name="drawer_open">Abrir drawer</string>
+    <string name="drawer_close">Cerrar drawer</string>
+    <string name="codes">Códigos</string>
+    <string name="digital_systems">Digitales</string>
+    <string name="networks">Redes</string>
+    <string name="binary">Binario</string>
+    <string name="hexadecimal">Hexadecimal</string>
+    <string name="sign_and_magnitude">Signo-magnitud</string>
+    <string name="twoscomplement">Complemento a dos</string>
+    <string name="interpretation">Interpretación</string>
+    <string name="floating_point">Coma flotante</string>
+    <string name="offset_binary">Exceso a Z</string>
+    <string name="logic_gate">Puerta lógica</string>
+    <string name="logic_operation">Operación lógica</string>
+    <string name="network_address">Dirección de red</string>
+    <string name="cidr">CIDR</string>
+    <string name="host_count">Número de hosts</string>
+    <string name="network_mask">Máscara de red</string>
+    <string name="network_layer">Capa de red</string>
+    <string name="protocol">Protocolo</string>
+    <string name="highscores">Puntuaciones</string>
+    <string name="exercise">Ejercicio</string>
+    <string name="default_user_name">Yo</string>
+    <string name="error_parsing_highscores">Error al analizar las puntuaciones</string>
+    <string name="error_adding_initial_highscores">Error al insertar las puntuaciones iniciales</string>
+
+    <!-- Strings logic gate -->
+    <string name="logic_gate_title">¿Qué puerta lógica es?</string>
+    <string name="tri_state_buffer">Buffer triestado</string>
+    <!-- Fin Strings logic gate -->
+
+    <!-- Strings de logic operation -->
+    <string name="LOpregunta">¿Cuál es la solución a esta operación lógica?</string>
+    <!-- Fin de strings de logic operation -->
+
+    <!-- Strings layer exercise -->
+    <string name="layer_title">Acierta la capa</string>
+    <string name="button_layer_exercise">Comprobar</string>
+    <string name="button_solution">Solución</string>
+    <string name="link_layer">Capa de enlace</string>
+    <string name="internet_layer">Capa de internet</string>
+    <string name="transport_layer">Capa de transporte</string>
+    <string name="application_layer">Capa de aplicación</string>
+
+    <!-- Fin Strings layer exercise -->
+    <string name="error_no_clock">Error: este ejercicio no está preparado para jugar</string>
+    <string name="check">Comprobar</string>
+    <string name="solution">Solución</string>
+
+	<!-- Cadenas comunes a varios módulos -->
+	<string name="game_over_message">Juego finalizado. Puntos: %1$d</string>
+    <string name="score">Puntos:</string>
+    <string name="game_on">¡A jugar!</string>
+    <string name="gameisoverexp">¡Has acabado el juego! Te han sobrado %1$d segundos y has obtenido %2$d puntos.</string>
+    <string name="lost_time_over">Game Over! Se ha acabado el tiempo. Puntos: %1$d</string>
+    <string name="end_game">Has terminado</string>
+
+    <!-- Módulo: Binario -->
+    <string name="convert_bin_to_dec">Convierte de binario natural con %1$d bits a decimal</string>
+    <string name="convert_dec_to_bin">Convierte de decimal a binario natural con %1$d bits</string>
+
+    <!-- Módulo: Hexadecimal -->
+    <string name="convert_bin_to_hex">Convierte de binario con %1$d bits a hexadecimal</string>
+    <string name="convert_hex_to_bin">Convierte de hexadecimal a binario con %1$d bits</string>
+
+	<!--  Módulo: signo y magnitud -->
+    <string name="convert_sign_and_magnitude_to_dec">Convierte de decimal a signo-magnitud con %1$d bits</string>
+    <string name="convert_dec_to_sign_and_magnitude">Convierte de signo-magnitud con %1$d bits a decimal</string>
+
+    <!--  Exceso a Z -->
+    <string name="convert_dec_to_bin_offset">Convierte de decimal a exceso a %1$d con %2$d bits</string>
+    <string name="convert_bin_offset_to_dec">Convierte de exceso a %1$d con %2$d bits a decimal</string>
+
+    <!-- Twos Complement -->
+    <string name="convert_dec_to_twos_complement">Convierte de decimal a complemento a dos con %1$d bits</string>
+    <string name="convert_twos_complement_to_dec">Convierte de complemento a dos con %1$d bits a decimal</string>
+
+    <!--  Strings Network Address -->
+    <string name="na_title">¿Cuál es la dirección de red para esta IP y esta máscara?</string>
+    <!--  Fin Strings Network Address -->
+
+    <!-- Modulo: Protocolos -->
+    <string name="protocols">Adivina el protocolo</string>
+    <string name="cidr_title">Calcula el sufijo CIDR para esta máscara</string>
+
+    <!-- Host count exercise -->
+    <string name="host_count_title">¿Cuántas máquinas podría haber en una red con esta máscara de subred?</string>
+    <!-- End Host count exercise -->
+    
+    <!--  Punto Flotante -->
+    <string name="convert_to_iee">Convierte a formato IEEE 754</string>
+    <string name="convert_from_iee">Convierte de IEEE 754 a decimal</string>
+    <string name="tv_sign">S</string>
+    <string name="tv_exponent">Exp (8 bits)</string>
+    <string name="tv_mant">Mantisa (23 bits)</string>
+	<!--  Fin Punto Flotante -->
+
+    <!-- Help activity -->
+    <string name="help_info">
+        Aplicación desarrollada por los alumnos de Informática Móvil, promoción
+        2013–2014.\n\nCódigo fuente: https://github.com/jentrialgo/imovil2014/
+    </string>
+    <!-- End Help activity -->
+
+	<!-- Máscara de red -->
+    <string name="network_mask_title">Máscara de red más pequeña que puede tener este número de máquinas</string>
+    <!-- Fin Máscara de red -->
+
+    <string name="tv_decimal">Número decimal</string>
+
+    <!-- Preferences -->
+    <string name="pref_level_key" translatable="false">PREF_LEVEL</string>
+    <string name="pref_level_title">Nivel</string>
+    
+    <string name="pref_level1_name">Aprendiz</string>
+    <string name="pref_level2_name">Iniciado</string>
+    <string name="pref_level3_name">Maestro</string>
+</resources>

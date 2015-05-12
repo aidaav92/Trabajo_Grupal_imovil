@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright 2014 Profesores y alumnos de la asignatura Informática Móvil de la EPI de Gijón
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<resources>
+
+    <array name="codes">
+        <item>@string/binary</item>
+        <item>@string/hexadecimal</item>
+        <item>@string/sign_and_magnitude</item>
+     <!--    <item>@string/interpretation</item> -->
+     <!--    <item>@string/offset_binary</item>  -->
+		<item>@string/twoscomplement</item>
+        <item>@string/floating_point</item>
+    </array>
+    <array name="digital_systems">
+        <item>@string/logic_gate</item>
+        <item>@string/logic_operation</item>
+    </array>
+    <array name="networks">
+        <item>@string/network_address</item>
+        <item>@string/cidr</item>
+        <item>@string/host_count</item>
+        <item>@string/network_mask</item>
+        <item>@string/network_layer</item>
+      <!--    <item>@string/protocol</item>  -->
+    </array>
+     
+    <array name="highscores">
+        <item>@string/highscores</item>
+    </array>
+
+    <string-array name="student_names">
+        <item>Ángel Manuel</item>
+        <item>Beltrán</item>
+        <item>David Alejandro</item>
+        <item>Diego</item>
+        <item>Enol</item>
+        <item>Gabriel</item>
+        <item>Henrik</item>
+        <item>Inés</item>
+        <item>Lucía</item>
+        <item>Marcos</item>
+        <item>Miguel Ángel</item>
+        <item>Óscar</item>
+        <item>Raphael</item>
+        <item>Roberto</item>
+        <item>Walter</item>
+    </string-array>
+
+    <!-- Arrays layer exercise -->  
+    <string-array name="layer_exercise_questions">
+        <item>IP</item>
+        <item>UDP</item>
+        <item>TCP</item>
+        <item>POP3</item>
+        <item>IMAP</item>
+        <item>ICMP</item>
+        <item>DNS</item>
+        <item>Ethernet</item>
+        <item>ARP</item>
+        <item>SSH</item>
+        <item>ICMP</item>
+    </string-array>
+
+    <string-array name="layer_exercise_answers">
+        <item>@string/internet_layer</item>
+        <item>@string/transport_layer</item>
+        <item>@string/transport_layer</item>
+        <item>@string/application_layer</item>
+        <item>@string/application_layer</item>
+        <item>@string/internet_layer</item>
+        <item>@string/application_layer</item>
+        <item>@string/link_layer</item>
+        <item>@string/link_layer</item>
+        <item>@string/application_layer</item>
+        <item>@string/internet_layer</item>
+    </string-array>
+
+    <!-- Arrays logic gate -->
+    <string-array name="logic_gates">
+        <item>AND</item>
+        <item>OR</item>
+        <item>NOT</item>
+        <item>XOR</item>
+        <item>NAND</item>
+        <item>NOR</item>
+        <item>@string/tri_state_buffer</item>
+    </string-array>
+    
+	<array name="logic_gates_images">
+        <item>@drawable/logic_gate_and</item>
+        <item>@drawable/logic_gate_or</item>
+        <item>@drawable/logic_gate_not</item>
+        <item>@drawable/logic_gate_xor</item>
+        <item>@drawable/logic_gate_nand</item>
+        <item>@drawable/logic_gate_nor</item>
+        <item>@drawable/logic_gate_buffer</item>
+    </array>
+    
+	<!-- Fin Arrays logic gate -->
+
+     <string-array name="pref_level_entries">
+         <item>@string/pref_level1_name</item>
+         <item>@string/pref_level2_name</item>
+         <item>@string/pref_level3_name</item>
+     </string-array>
+     
+     <string-array name="pref_level_values">
+         <item>@string/pref_level1_name</item>
+         <item>@string/pref_level2_name</item>
+         <item>@string/pref_level3_name</item>
+     </string-array>
+     
+</resources>
