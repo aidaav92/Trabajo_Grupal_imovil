@@ -37,12 +37,12 @@ limitations under the License.
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
 
-    <style name="Title2DarkLight">
-        <item name="android:textSize">@dimen/normal_font</item>
-        <item name="android:textColor">@color/darkgray</item>
-        <item name="android:textStyle">italic</item>
-        <item name="android:fontFamily" tools:ignore="NewApi">sans-serif-light</item>
-    </style>
+ <style name="Title2DarkLight">
+    <item name="android:textSize">@dimen/normal_font</item>
+    <item name="android:textColor">@color/darkgray</item>
+    <item name="android:textStyle">italic</item>
+    <item name="android:fontFamily" tools:ignore="NewApi">sans-serif-light</item>
+</style>
 
     <style name="cards">
         <item name="android:layout_marginTop">6dp</item>

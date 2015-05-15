@@ -19,7 +19,8 @@ limitations under the License.
     xmlns:custom="http://schemas.android.com/apk/res/es.uniovi.imovil.fcrtrainer"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fillViewport="true" >
+    android:fillViewport="true"
+    tools:ignore="ResAuto">
 
     <RelativeLayout
         style="@style/game_fragment"

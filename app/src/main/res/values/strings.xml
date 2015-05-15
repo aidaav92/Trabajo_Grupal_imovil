@@ -50,13 +50,19 @@ limitations under the License.
 
     <!-- Strings logic gate -->
     <string name="logic_gate_title">¿Qué puerta lógica es?</string>
+    <string name="gate_and" translatable="false">AND</string>
+    <string name="gate_or" translatable="false">OR</string>
+    <string name="gate_not" translatable="false">NOT</string>
+    <string name="gate_xor" translatable="false">XOR</string>
+    <string name="gate_nand" translatable="false">NAND</string>
+    <string name="gate_nor" translatable="false">NOR</string>
     <string name="tri_state_buffer">Buffer triestado</string>
     <!-- Fin Strings logic gate -->
 
     <!-- Strings digital circuit -->
     <string name="digital_circuit_0" translatable="false">0</string>
     <string name="digital_circuit_1" translatable="false"> 1 </string>
-    <!-- Fin Strings logic gate -->
+    <!-- Fin Strings digital circuit -->
 
     <!-- Strings de logic operation -->
     <string name="LOpregunta">¿Cuál es la solución a esta operación lógica?</string>
@@ -75,6 +81,16 @@ limitations under the License.
     <string name="error_no_clock">Error: este ejercicio no está preparado para jugar</string>
     <string name="check">Comprobar</string>
     <string name="solution">Solución</string>
+    <string name="IP" translatable="false">IP</string>
+    <string name="UDP" translatable="false">UDP</string>
+    <string name="TCP" translatable="false">TCP</string>
+    <string name="POP3" translatable="false">POP3</string>
+    <string name="IMAP" translatable="false">IMAP</string>
+    <string name="ICMP" translatable="false">ICMP</string>
+    <string name="DNS" translatable="false">DNS</string>
+    <string name="Ethernet" translatable="false">Ethernet</string>
+    <string name="ARP" translatable="false">ARP</string>
+    <string name="SSH" translatable="false">SSH</string>
 
     <!-- Cadenas comunes a varios módulos -->
     <string name="game_over_message">Juego finalizado. Puntos: %1$d</string>
@@ -145,4 +161,21 @@ limitations under the License.
     <string name="pref_level2_name">Iniciado</string>
     <string name="pref_level3_name">Maestro</string>
     <string name="digital_circuit_title">¿Qué valor resulta en la salida del circuito?</string>
+
+    <!-- Students -->
+    <string name="student_1" translatable="false">Ángel Manuel</string>
+    <string name="student_2" translatable="false">Beltrán</string>
+    <string name="student_3" translatable="false">David Alejandro</string>
+    <string name="student_4" translatable="false">Diego</string>
+    <string name="student_5" translatable="false">Enol</string>
+    <string name="student_6" translatable="false">Gabriel</string>
+    <string name="student_7" translatable="false">Henrik</string>
+    <string name="student_8" translatable="false">Inés</string>
+    <string name="student_9" translatable="false">Lucía</string>
+    <string name="student_10" translatable="false">Marcos</string>
+    <string name="student_11" translatable="false">Miguel Ángel</string>
+    <string name="student_12" translatable="false">Óscar</string>
+    <string name="student_13" translatable="false">Raphael</string>
+    <string name="student_14" translatable="false">Roberto</string>
+    <string name="student_15" translatable="false">Walter</string>
 </resources>

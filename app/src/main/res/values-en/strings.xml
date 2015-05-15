@@ -119,5 +119,8 @@
     <string name="pref_level3_name">Master</string>
     <string name="digital_circuit">Digital circuits</string>
     <string name="digital_circuit_title">What value results in the output of the circuit ?</string>
+    <string name="action_game_control">Play</string>
+    <string name="interpretation">Interpretation</string>
+    <string name="tv_decimal">Decimal number</string>
 
 </resources>

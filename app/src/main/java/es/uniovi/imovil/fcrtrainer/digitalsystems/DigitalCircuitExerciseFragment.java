@@ -42,7 +42,7 @@ public class DigitalCircuitExerciseFragment extends BaseExerciseFragment impleme
     //Constructor
     public DigitalCircuitExerciseFragment(){}
 
-    //Métodos
+    //Metodos
     public static DigitalCircuitExerciseFragment newInstance() {
         DigitalCircuitExerciseFragment mfragment = new DigitalCircuitExerciseFragment();
         return mfragment;
@@ -168,15 +168,15 @@ public class DigitalCircuitExerciseFragment extends BaseExerciseFragment impleme
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position,
                                long id) {
-        // Nada que hacer aquí
+        // Nada que hacer aqui
     }
 
     @Override
     public void onNothingSelected(AdapterView<?> parent) {
-        // Nada que hacer aquí
+        // Nada que hacer aqui
     }
 
-    // Metodo para generar un número aleatorio
+    // Metodo para generar un numero aleatorio
     private int random() {
         return mRandom.nextInt(numberOfCircuits());
     }
